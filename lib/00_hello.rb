@@ -7,5 +7,5 @@ def greet(name)
 end
 
 hello
-greet("Alice")
-greet("Bob")
+puts greet("Alice")
+puts greet("Bob")
