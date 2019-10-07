@@ -80,4 +80,4 @@ puts start_of_word("Lemotdelamort",4)
 
 puts first_word("kzegf iezurg zeorh")
 
-puts titleize("the ehf eooieryze the zkejfg zkejgrh")
+puts titleize("the ehf and eooieryze the zkejfg zkejgrh")

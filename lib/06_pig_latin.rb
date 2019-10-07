@@ -12,7 +12,7 @@ def translate(tab)
         end
 end
 
-#ca m'a souleyyyyyyy 
+#ca m'a souleyyyyyyy
 
 
 puts translate("bonjour")
