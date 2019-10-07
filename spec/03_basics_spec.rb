@@ -41,11 +41,11 @@ end
 describe 'crazy stuff on arrays' do
   # The magic_array function takes an array of number or an array of
   # array of number as parameter and return the same array :
-  # - flattened (i.e. no more arrays in array)
-  # - sorted
+  # - flattened (i.e. no more arrays in array) OK
+  # - sorted OK
   # - with each number multiplicated by 2
   # - with each multiple of 3 removed
-  # - with each number duplicate removed (any number should appear only once)
+  # - with each number duplicate removed (any number should appear only once) OK
   # - sorted
   # BONUS : You can do this in one line less than 55 chars
   it 'does crazy stuff on Arrays' do
