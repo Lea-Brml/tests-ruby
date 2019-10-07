@@ -34,8 +34,8 @@ end
 
 def magic_array(n)
 
-  return n.flatten.sort.uniq.delete_if{|i| i%3 == 0}.map{|i| i*2}
-  #57 caractères avec les espaces héhéhéhhé
+  return n.flatten.sort.uniq.delete_if{|i|i%3==0}.map{|i|i*2}
+  #52 caractères héhéhéhhé
 
 end
 
