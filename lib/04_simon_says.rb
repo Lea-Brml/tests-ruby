@@ -48,7 +48,7 @@ def titleize(mot)
   tab << mot[i].capitalize
 
   i = i +1
-  
+
   while  i < mot.size
     if mot[i] == "and" || mot[i] == "the"
       tab << mot[i]

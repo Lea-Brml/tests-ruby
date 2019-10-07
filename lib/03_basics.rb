@@ -20,21 +20,21 @@ end
 
 def reverse_upcase_noLTA(phrase)
 
-  puts phrase.upcase.reverse.delete "LTA"
+  return phrase.upcase.reverse.delete"LTA"
 
 end
 
 
 def array_42(n)
 
-  puts n.include?(42)
+  return n.include?(42)
 
 end
 
 
 def magic_array(n)
 
-  print n.flatten.sort.uniq.delete_if{|i| i%3 == 0}.map{|i| i*2}
+  return n.flatten.sort.uniq.delete_if{|i| i%3 == 0}.map{|i| i*2}
   #57 caractères avec les espaces héhéhéhhé
 
 end
@@ -42,8 +42,8 @@ end
 
 puts who_is_bigger(1,2,3)
 
-reverse_upcase_noLTA("bonajolurt")
+puts reverse_upcase_noLTA("bonajolurt")
 
-array_42([1,2,42])
+puts array_42([1,2,42])
 
-magic_array([1,14,6,12,12,[4,5]])
+print magic_array([1,14,6,12,12,[4,5]])
