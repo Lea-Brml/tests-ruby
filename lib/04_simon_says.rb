@@ -40,9 +40,33 @@ end
 
 def titleize(mot)
 
-  mot.split.map(&:capitalize).join(' ')
+  i = 0
+  tab = []
+
+
+  mot = mot.split(' ')
+  tab << mot[i].capitalize
+
+  i = i +1
+  
+  while  i < mot.size
+    if mot[i] == "and" || mot[i] == "the"
+      tab << mot[i]
+    else
+      tab << mot[i].capitalize
+    end
+  i = i + 1
+  end
+
+  return tab.*" "
+
+
+#mot.split.map(&:capitalize).join(' ')  methode simple sans prendre les the et and en compte
 
 end
+
+
+
 
 
 
@@ -56,8 +80,4 @@ puts start_of_word("Lemotdelamort",4)
 
 puts first_word("kzegf iezurg zeorh")
 
-puts titleize("ehf eooieryze the zkejfg zkejgrh")
-
-
-
-mot.split.map(&:capitalize).join(' ')
+puts titleize("the ehf eooieryze the zkejfg zkejgrh")
